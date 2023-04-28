@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+:root {
+  --font-style: "Poppins", sans-serif;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --backgroun-UDC: #41761d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-style);
+}
+
+nav {
+  background-color: #000000db;
+}
+
+nav ul {
+  cursor: pointer;
+  padding: 1rem 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 2rem;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+.max-width-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.front-page {
+  width: 100%;
+}
+
+.front-page img {
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.img-banner-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--backgroun-UDC);
+  box-shadow: rgba(0, 0, 0, 0) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.banner-message {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.information-header {
+  justify-content: space-around;
+  display: flex;
+}
+
+.information-header img {
+  height: 200px;
+}
+/*SLIDE PART*/
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+.slideshow {
+  display: block;
+  margin: auto;
+  width: 1200px;
+}
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+.mySlides img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+.move-buttons {
+  position: relative;
+}
+
+.buttons {
+  user-select: none;
+  position: absolute;
+  color: #ffffff8e;
+  top: -550px;
+  font-size: 10rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+}
+
+.next {
+  position: relative;
+  left: 990px;
+}
+
+/*SLIDE PART END*/
+header {
+  color: rgb(2, 63, 2);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+section {
+  margin-top: 2.5rem;
+}
+
+.logo-coloquio {
+  width: 200px;
+}
+
+section h2 {
+  font-size: 3rem;
+  color: #0260246f;
+}
+
+section p {
+  font-size: 1.3rem;
+  margin: 3rem 0;
+}
+
+section ul li {
+  font-size: 1.3rem;
+  margin-left: 5rem;
+}
+
+footer {
+  margin-top: 4rem;
+  background-color: #000000db;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+footer img {
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.copy-message {
+  color: #ffffff;
+  text-align: center;
+}
